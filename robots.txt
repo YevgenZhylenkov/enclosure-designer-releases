@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yevgenzhylenkov.github.io/enclosure-designer-releases/sitemap.xml

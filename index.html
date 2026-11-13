@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enclosure Designer — безкоштовний конструктор електрощитів</title>
+<meta name="description" content="Безкоштовна програма для Windows: компонування модульних щитів Hager, проводи з маркуванням, специфікація з цінами, наклейки на пластрон, однолінійна схема. Неофіційна, від інженера для інженерів.">
+<link rel="canonical" href="https://yevgenzhylenkov.github.io/enclosure-designer-releases/">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="assets/img/icon-64.png">
+<link rel="apple-touch-icon" href="assets/img/icon-256.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="uk_UA">
+<meta property="og:title" content="Enclosure Designer — безкоштовний конструктор електрощитів">
+<meta property="og:description" content="Безкоштовна програма для Windows: компонування модульних щитів Hager, проводи з маркуванням, специфікація з цінами, наклейки на пластрон, однолінійна схема. Неофіційна, від інженера для інженерів.">
+<meta property="og:url" content="https://yevgenzhylenkov.github.io/enclosure-designer-releases/">
+<meta property="og:image" content="https://yevgenzhylenkov.github.io/enclosure-designer-releases/assets/img/og.png">
+<meta name="theme-color" content="#0078c3">
+<link rel="stylesheet" href="assets/style.css?v=611aa3c5">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/img/icon-64.png" width="32" height="32" alt="">
+      <span>Enclosure Designer<small>конструктор щитів</small></span></a>
+    <button class="menu-toggle" type="button" aria-label="Меню" aria-expanded="false"
+      onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#features">Можливості</a>
+      <a href="guide/">Інструкція</a>
+      <a href="changelog/">Що нового</a>
+      <a href="#faq">Питання</a>
+      <a href="#donate">Підтримати</a>
+      <a class="btn small" href="#download">Завантажити</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="badge">Безкоштовно • Windows 10 / 11</div>
+      <h1>Конструктор щитів</h1>
+      <p class="lead">Зберіть модульний електрощит на екрані: корпус, апарати на DIN-рейках, проводи з маркуванням —
+        і отримайте специфікацію з цінами та наклейки на пластрон за кілька хвилин.</p>
+      <div class="cta">
+        <a class="btn big" href="https://github.com/YevgenZhylenkov/enclosure-designer-releases/releases/latest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Завантажити для Windows</a>
+        <a class="btn big ghost" href="guide/">Інструкція</a>
+      </div>
+      <p class="meta">
+                        • без реєстрації • без прав адміністратора
+      </p>
+      <p class="beta"><b>Програма ще в розробці (бета-версія).</b> Можливі помилки, збої та неточності — у каталозі,
+        цінах, схемах і розрахунках. Перевіряйте результат і <a href="mailto:yevhen.zhylenkov@gmail.com">повідомляйте про
+        знайдені проблеми</a>.</p>
+    </div>
+    <div class="shot"><img src="assets/img/main.webp" width="1600" height="940"
+      alt="Головне вікно програми: список щитів, щит Golf з апаратами та проводами, каталог Hager"></div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Що вміє програма</h2>
+      <p>Усе, що потрібно, щоб від ідеї щита дійти до замовлення обладнання й акуратного монтажу.</p>
+    </div>
+    <div class="grid c3">
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/></svg></div><h3>Корпуси Hager</h3>
+        <p>Volta, Golf, Vector, Univers FW та інші — з реальною кількістю рядів і модулів. Корпус можна змінити будь-коли, апарати лишаться на місцях.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="4" height="12" rx="1"/><rect x="8.5" y="6" width="4" height="12" rx="1"/><rect x="14" y="6" width="7" height="12" rx="1"/></svg></div><h3>Каталог апаратів</h3>
+        <p>Сотні позицій офіційного каталогу Hager з фільтрами й пошуком за артикулом. Перетягніть апарат на рейку — програма не дасть вийти за межі чи накласти апарати.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="6" r="2"/><circle cx="19" cy="18" r="2"/><path d="M5 8v6a4 4 0 0 0 4 4h8"/></svg></div><h3>Проводи і маркування</h3>
+        <p>Проводи прокладаються кліками по клемах, траси обходять апарати. Маркування за потенціалом, переріз, колір, заборона з'єднати фазу з N чи PE.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></div><h3>Заготовки й шаблони</h3>
+        <p>Новий щит одразу з типовою начинкою — квартира, будинок, гараж — або з вашого власного шаблону. Копія щита — одним кліком.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div><h3>Вводи: місто, генератор, інвертор</h3>
+        <p>До трьох вводів у щиті: склад вибирається одним кліком, резерв сам стає на джерело II перемикача. Назва, мережа й кабель кожного вводу — на бирці, у схемі й журналі.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div><h3>Швидка група і розводка</h3>
+        <p>ПЗВ з автоматами, шиною й проводами — однією дією. Виділені апарати програма сама розведе: ввід → ПЗВ → автомати, по фазах.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></div><h3>Копіювання і клавіші</h3>
+        <p>Ctrl+C / Ctrl+V / Ctrl+D — копії апаратів із назвами ліній і проводами, і в інший щит. Стрілки зсувають апарати на модуль чи ряд.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="2" x2="12" y2="7"/><line x1="12" y1="7" x2="15" y2="11"/><path d="M5 13h14"/><line x1="5" y1="13" x2="5" y2="22"/><line x1="12" y1="13" x2="12" y2="22"/><line x1="19" y1="13" x2="19" y2="22"/></svg></div><h3>Однолінійна схема</h3>
+        <p>Будується автоматично з прокладених проводів: вводи, ПЗВ, групи автоматів, кола керування й таблиця ліній. Її можна доповнити символами й підписами — зміни зберігаються в щиті — і зберегти в PDF з рамкою та штампом чи в PNG.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="9" y1="6" x2="21" y2="6"/><line x1="9" y1="12" x2="21" y2="12"/><line x1="9" y1="18" x2="21" y2="18"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg></div><h3>Специфікація з цінами</h3>
+        <p>Корпус, апарати з позначеннями, шини, довжина проводів за трасами, комплектні клеми. Ціни в гривнях, експорт у PDF і CSV для Excel.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="14 3 14 9 20 9"/></svg></div><h3>Комплект документів</h3>
+        <p>Вид щита, однолінійна схема, журнал проводів, специфікація й наклейки — в одному PDF, кожен аркуш у рамці зі штампом: об'єкт, щит, розробник, дата, аркуш.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg></div><h3>Наклейки на пластрон</h3>
+        <p>Позначення, назви ліній, піктограми й кольорові плашки з артикулом. PDF у масштабі 1:1 з контрольною лінійкою 100 мм.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><polyline points="8 12 11 15 16 9"/></svg></div><h3>Перевірка щита</h3>
+        <p>Переріз проводу за номіналом автомата, ПЗВ і його автомати, лінії без ПЗВ, струм шини, нагрів корпусу, навантаження й перекіс фаз, розрахункове навантаження з Kс і підбір вводного автомата та кабелю вводу, непідключені апарати, запас вільного місця в корпусі.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="14 3 14 9 20 9"/></svg></div><h3>Файл щита .hgd</h3>
+        <p>Збережіть щит в один файл і відкрийте на іншому комп'ютері або передайте колезі — разом із власними приладами та піктограмами.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 4 23 10 17 10"/><path d="M20.5 15a9 9 0 1 1-2.1-9.4L23 10"/></svg></div><h3>Автооновлення</h3>
+        <p>Програма сама пропонує нову версію. Оновлення підписані цифровим підписом, ваші щити й налаштування зберігаються.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="soft" id="screens">
+  <div class="wrap">
+    <div class="feature">
+      <div class="text">
+        <h2>Щит — як справжній</h2>
+        <p class="muted">Апарати показані у масштабі з артикулами, номіналами та номерами клем. Видно кожен провід і кожну клему.</p>
+        <ul>
+          <li>ширина апаратів з кроком пів модуля;</li>
+          <li>комплектні клеми N / PE і тримачі QuickConnect додаються самі;</li>
+          <li>гребінчасті шини KB / KDN об'єднують полюси;</li>
+          <li>клік по клемі підсвічує всі проводи її потенціалу;</li>
+          <li>скасування й повтор дій — <kbd>Ctrl</kbd>+<kbd>Z</kbd> / <kbd>Ctrl</kbd>+<kbd>Y</kbd>.</li>
+        </ul>
+      </div>
+      <div class="shot tall"><img src="assets/img/board.webp" width="1200" height="1474" loading="lazy"
+        alt="Щит Golf на два ряди: вимикач навантаження, ПЗВ, автомати, реле напруги, розетка, проводи з маркуванням"></div>
+    </div>
+    <div class="feature flip">
+      <div class="text">
+        <h2>Однолінійна схема</h2>
+        <p>Програма читає, як ви з'єднали апарати, і креслить однолінійну схему на аркуші A4 або A3 з таблицею ліній:</p>
+        <ul>
+          <li>вводи щита (місто, генератор, інвертор) і перемикачі джерел;</li>
+          <li>кола керування: котушка контактора, реле напруги, автомат котушки;</li>
+          <li>тип ПЗВ, вимикальна здатність, клемні блоки N і PE, підсумок навантаження;</li>
+          <li>редагування: перетягування, символи з палітри, лінії й написи — зміни зберігаються в щиті й не губляться після змін на щиті;</li>
+          <li>PDF у рамці зі штампом і PNG; примітки про непідключені апарати.</li>
+        </ul>
+      </div>
+      <div class="shot"><img src="assets/img/scheme.webp" width="1360" height="900" loading="lazy"
+        alt="Вікно однолінійної схеми з палітрою символів і таблицею відхідних ліній"></div>
+    </div>
+    <div class="feature">
+      <div class="text">
+        <h2>Специфікація для замовлення</h2>
+        <p class="muted">Готовий перелік для постачальника: позиції згруповані за артикулами, з позначеннями, кількістю, цінами й сумою.</p>
+        <ul>
+          <li>довжина проводів за реальними трасами із запасом;</li>
+          <li>окремо — що вже входить у комплект корпусу;</li>
+          <li>PDF для друку, CSV — для Excel.</li>
+        </ul>
+      </div>
+      <div class="shot"><img src="assets/img/spec.webp" width="1240" height="800" loading="lazy"
+        alt="Специфікація щита: корпус, автомати, ПЗВ, реле, розетка, проводи, сума в гривнях"></div>
+    </div>
+    <div class="feature flip">
+      <div class="text">
+        <h2>Наклейки на пластрон</h2>
+        <p class="muted">Розмітка під кожен апарат з урахуванням його ширини. Друкуйте у масштабі 100 % — і наклейка ляже точно на місце.</p>
+        <ul>
+          <li>позначення, назва лінії, піктограма, плашка з артикулом;</li>
+          <li>шрифт і напрям тексту — для всіх або для окремої наклейки;</li>
+          <li>власні піктограми з PNG, JPG або SVG.</li>
+        </ul>
+      </div>
+      <div class="shot"><img src="assets/img/labels.webp" width="1280" height="820" loading="lazy"
+        alt="Налаштування наклейок і попередній перегляд аркуша з наклейками для кожного ряду"></div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Чотири кроки до готового щита</h2>
+      <p>Детально кожен крок описано в <a href="guide/">інструкції</a>.</p>
+    </div>
+    <div class="steps">
+      <div class="card"><h3>Оберіть корпус</h3><p>«Новий проєкт» → серія, розмір і мережа: однофазна або трифазна.</p></div>
+      <div class="card"><h3>Розставте апарати</h3><p>Знайдіть у каталозі й перетягніть на DIN-рейку, правий клік — властивості.</p></div>
+      <div class="card"><h3>Прокладіть проводи</h3><p>Клік по одній клемі, потім по іншій. Маркування призначиться автоматично.</p></div>
+      <div class="card"><h3>Отримайте документи</h3><p>Специфікація, наклейки, маркування, однолінійна схема — у PDF, PNG чи CSV.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="download" id="download">
+  <div class="wrap">
+    <div>
+      <h2>Завантажити</h2>
+      <p>Інсталятор для Windows 10 / 11 (64-біт). Встановлюється без прав адміністратора, подальші оновлення програма
+        пропонує сама.</p>
+      <div class="cta">
+        <a class="btn big" href="https://github.com/YevgenZhylenkov/enclosure-designer-releases/releases/latest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Завантажити інсталятор</a>
+      </div>
+      <p class="meta">
+                        • програма в стадії бета-тестування
+      </p>
+      <ul class="small">
+        <li>Якщо Windows SmartScreen покаже «Windows захистив ваш комп'ютер» — натисніть «Докладніше» → «Усе одно запустити».
+          Інсталятор поки не має платного сертифіката видавця.</li>
+        <li>Ваші щити зберігаються окремо від програми й не зникають при оновленні.</li>
+      </ul>
+    </div>
+      </div>
+</section>
+
+<section class="donate" id="donate">
+  <div class="wrap">
+    <div class="heart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21.2l7.8-7.7 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></div>
+    <div>
+      <h2>Підтримати проєкт</h2>
+      <p class="muted" style="margin:0">Програма безкоштовна і такою залишиться. Якщо вона економить вам час — добровільний
+        внесок допоможе розвивати її далі: нові серії корпусів, апарати, функції.</p>
+    </div>
+    <a class="btn big berry" href="https://donatello.to/enclosure_designer" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21.2l7.8-7.7 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg>Підтримати</a>
+  </div>
+</section>
+
+<section class="soft" id="faq">
+  <div class="wrap">
+    <div class="section-head"><h2>Питання та відповіді</h2></div>
+    <details><summary>Це офіційна програма Hager?</summary><div>Ні. Програму створив незалежний розробник; вона не є продуктом
+      Hager Group і не підтримується нею. Назви й артикули обладнання використано лише для зручності підбору.</div></details>
+    <details><summary>Скільки коштує?</summary><div>Нічого. Програма безкоштовна, без реклами й обмежень. За бажанням можна
+      <a href="https://donatello.to/enclosure_designer" target="_blank" rel="noopener">підтримати розробку</a>.</div></details>
+    <details><summary>Чи потрібен інтернет?</summary><div>Ні, програма працює повністю офлайн. Інтернет потрібен лише для
+      перевірки оновлень (при кожному запуску) — якщо його немає, програма просто пропустить перевірку.</div></details>
+    <details><summary>Де зберігаються мої щити?</summary><div>У базі на вашому комп'ютері: папка
+      <code>%USERPROFILE%\.enclosure_designer</code>. Програма щодня й перед кожним оновленням робить резервну копію бази,
+      повернутися до неї — кнопка «Резервні копії» → «Відновити базу з копії…». Щоб перенести щит на інший комп'ютер — «Зберегти у файл» (.hgd).</div></details>
+    <details><summary>Наскільки точні ціни в специфікації?</summary><div>Ціни взято з каталогу на момент виходу версії —
+      це орієнтир. Перед замовленням уточнюйте актуальні ціни в постачальника.</div></details>
+    <details><summary>Чи є версія для macOS або Linux?</summary><div>Поки лише Windows 10 / 11.</div></details>
+    <details><summary>Знайшов помилку або маю ідею — куди писати?</summary><div>На
+      <a href="mailto:yevhen.zhylenkov@gmail.com">yevhen.zhylenkov@gmail.com</a>. Добре, якщо до листа додасте файл щита .hgd і знімок
+      екрана. При збоях програма сама пише журнал <code>crash.log</code> у папку «Документи\Enclosure Designer» — його теж варто додати.</div></details>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="notice"><b>Застереження.</b> Програма надається «як є», без гарантій. Вона допомагає скомпонувати щит, але не
+      замінює проєкт, розрахунки й перевірку кваліфікованим електриком відповідно до чинних норм. Hager — торгова марка
+      Hager Group; цей сайт і програма не пов'язані з Hager Group.</p>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div>© 2026 Yevgen Zhylenkov • Enclosure Designer<br>
+      Неофіційна безкоштовна програма, не пов'язана з Hager Group.</div>
+    <div>
+      <a href="guide/">Інструкція</a> •
+      <a href="changelog/">Історія версій</a> •
+      <a href="https://github.com/YevgenZhylenkov/enclosure-designer-releases/releases/latest">Завантажити</a> •
+      <a href="https://donatello.to/enclosure_designer" target="_blank" rel="noopener">Підтримати</a><br>
+      Зворотний зв'язок: <a href="mailto:yevhen.zhylenkov@gmail.com">yevhen.zhylenkov@gmail.com</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
