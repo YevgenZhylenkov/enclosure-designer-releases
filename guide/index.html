@@ -70,7 +70,7 @@
 
     <h2 id="install">1. Встановлення</h2>
     <ol>
-      <li><a href="https://github.com/YevgenZhylenkov/enclosure-designer-releases/releases/download/v2.01-beta/EnclosureDesigner-Setup-2.01-beta.exe">Завантажте інсталятор</a> (Windows 10 / 11, 64-біт).</li>
+      <li><a href="https://github.com/YevgenZhylenkov/enclosure-designer-releases/releases/download/v2.02-beta/EnclosureDesigner-Setup-2.02-beta.exe">Завантажте інсталятор</a> (Windows 10 / 11, 64-біт).</li>
       <li>Запустіть файл <code>EnclosureDesigner-Setup-….exe</code>. Права адміністратора не потрібні — програма
         встановлюється для поточного користувача.</li>
       <li>Якщо з'явиться синє вікно <b>«Windows захистив ваш комп'ютер»</b>, натисніть <b>«Докладніше»</b> →
@@ -479,6 +479,9 @@
     </table></div>
     <p>Щоб відкрити папку, вставте шлях в адресний рядок Провідника.</p>
 
+    <p><b>Програма відкривається в одному вікні.</b> Якщо запустити її ще раз, нове вікно не з'явиться — на передній
+      план вийде вже відкрите. Дві копії програми працювали б з однією базою щитів і стирали б зміни одна одної.</p>
+
     <h3 id="backups">Резервні копії бази</h3>
     <p>Програма сама копіює базу щитів раз на добу (при запуску і, якщо програму не закривають, під час роботи;
       зберігаються 7 останніх автокопій) і перед першим запуском нової версії. Кнопка <b>«Резервні копії»</b>
@@ -491,6 +494,10 @@
       <li><b>«Створити копію зараз»</b> — зберегти поточний стан, наприклад перед великими змінами.</li>
       <li><b>«Відкрити папку з копіями»</b> — папка <code>backups</code> у Провіднику.</li>
     </ul>
+    <p><b>Якщо файл бази пошкоджено</b> (збій диска, вимкнення живлення під час запису), програма під час запуску
+      повідомить про це й запропонує «Відновити з копії» — з найновішої цілої резервної копії — або «Почати з порожньою
+      базою». Пошкоджений файл не видаляється: він лишається в папці даних з позначкою <code>damaged</code> у назві.
+      Пошкоджену базу програма в автокопії не записує, тож цілі копії вона не витіснить.</p>
 
     <h2 id="updates">16. Оновлення</h2>
     <p>При кожному запуску програма перевіряє, чи вийшла нова версія, і показує список змін. Погодьтеся — інсталятор
@@ -547,7 +554,7 @@
     <div>
       <a href="../guide/">Інструкція</a> •
       <a href="../changelog/">Історія версій</a> •
-      <a href="https://github.com/YevgenZhylenkov/enclosure-designer-releases/releases/download/v2.01-beta/EnclosureDesigner-Setup-2.01-beta.exe">Завантажити</a> •
+      <a href="https://github.com/YevgenZhylenkov/enclosure-designer-releases/releases/download/v2.02-beta/EnclosureDesigner-Setup-2.02-beta.exe">Завантажити</a> •
       <a href="https://donatello.to/enclosure_designer" target="_blank" rel="noopener">Підтримати</a><br>
       Зворотний зв'язок: <a href="mailto:yevhen.zhylenkov@gmail.com">yevhen.zhylenkov@gmail.com</a>
     </div>
