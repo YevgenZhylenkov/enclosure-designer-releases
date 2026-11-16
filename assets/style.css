@@ -1,15 +1,15 @@
 /* Сайт designer.hager-service.com.ua — спільні стилі лендингу та інструкції */
 :root {
-  --blue: #0078c3;
+  --blue: #0067a8;
   --blue-dark: #00609c;
-  --navy: #00477e;
-  --navy-dark: #002841;
+  --navy: #003d6b;
+  --navy-dark: #00223a;
   --berry: #910049;
   --text: #2f3640;
   --muted: #66707c;
   --bg: #ffffff;
   --bg-soft: #f4f7fa;
-  --tint: #e8f2fa;
+  --tint: #e5eef6;
   --border: #e1e6eb;
   --card: #ffffff;
   --shadow: 0 1px 2px rgba(0, 40, 65, .06), 0 8px 24px rgba(0, 40, 65, .08);
