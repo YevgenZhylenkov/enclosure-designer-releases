@@ -224,3 +224,8 @@ th { color: var(--navy); background: var(--bg-soft); }
   font-size: .72rem; font-weight: 700; letter-spacing: .02em; text-transform: uppercase; line-height: 1.6;
   color: #8a5300; background: color-mix(in srgb, #f5a400 18%, var(--bg)); border: 1px solid color-mix(in srgb, #f5a400 55%, transparent); }
 @media (prefers-color-scheme: dark) { .wip { color: #ffc861; } }
+
+/* Звернення автора перед списком змін (текст до «Що нового:») */
+.appeal { color: #c62828; font-weight: 700; }
+.appeal a { color: inherit; }
+.notes .appeal { color: #ff8a80; }
